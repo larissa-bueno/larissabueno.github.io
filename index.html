@@ -4,6 +4,79 @@
     <meta charset="UTF-8">
     <title>Larissa Bueno</title>
     <style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 750px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 32px;
+    color: #243b55;
+}
+
+h3 {
+    color: #666;
+    margin-top: -10px;
+}
+
+h2 {
+    margin-top: 35px;
+    color: #141e30;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #243b55;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.contato {
+    margin-top: 20px;
+    font-weight: bold;
+    background: #243b55;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+</style>
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
